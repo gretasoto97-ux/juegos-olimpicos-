@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegos Olímpicos</title>
+    <link rel="stylesheet" href="diseñoj.css">
+</head>
+<body>
+
+    <header>
+        <h1>JUEGOS OLÍMPICOS</h1>
+        <p>El espíritu deportivo que une al mundo</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#historia">Historia</a>
+        <a href="#video">Vídeo</a>
+        <a href="#informacion">Información</a>
+    </nav>
+
+    <main class="contenedor">
+
+        <section id="inicio">
+            <h2>Bienvenidos a los Juegos Olímpicos</h2>
+
+            <img class="imagen-principal"
+            src="simbol.webp"
+            alt="Competencia deportiva"
+            width="100" height="150">
+
+            <div class="informacion">
+                <p>
+                   Los Juegos Olímpicos son uno de los eventos deportivos más importantes del mundo.
+                    Reúnen a atletas de diferentes países para competir en distintas disciplinas deportivas.
+                     Se realizan cada cuatro años y buscan promover la unión, la amistad, el respeto y la sana competencia entre las personas.
+                </p>
+
+                <button onclick="mostrarMensaje()">
+                    Conocer más
+                </button>
+
+                <p id="mensaje"></p>
+            </div>
+        </section>
+
+        <section id="historia" class="informacion">
+            <h2>Historia de los Juegos Olímpicos</h2>
+
+            <p>
+                La historia de los Juegos Olímpicos data de la antigüedad griega,
+                 aproximadamente del siglo VIII a.C. Para ese entonces, se solían llevar a cabo diversos eventos deportivos con la finalidad de homenajear a los dioses del Panteón Olímpico, 
+                 siendo éstos a los que se les rendía culto por parte de los griegos (además, de allí también proviene su nombre).
+              Dichos juegos consistían en fiestas de gran magnitud en la que diversos luchadores y guerreros se reunían,
+             provenientes de todas las naciones griegas. Tal como hoy, se trataba de escoger a los mejores para concederles premios con la intención de que fueran recordados eternamente
+              (a muchos hasta se les hacía esculturas en su nombre).
+            </p>
+        </section>
+
+        <section id="video" class="informacion">
+            <h2>Un vistazo a los Juegos Olímpicos</h2>
+            <p>Mira las rutinas de las gimnastas de los Juegos Olímpicos, TOKYO 2020</p>
+            <iframe class="video"
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/wBW5jamJLt4"
+  title="Gimnasia olímpica"
+  allowfullscreen>
+</iframe>
+        </section>
+
+        <section id="informacion" class="informacion">
+            <h2>Información relevante</h2>
+
+            <table>
+                <tr>
+                    <th>Dato</th>
+                    <th>Información</th>
+                </tr>
+
+                <tr>
+                    <td>Origen</td>
+                    <td>Antigua Grecia</td>
+                </tr>
+
+                <tr>
+                    <td>Primeros Juegos modernos</td>
+                    <td>1896, Atenas</td>
+                </tr>
+
+                <tr>
+                    <td>Fundador del movimiento moderno</td>
+                    <td>Pierre de Coubertin</td>
+                </tr>
+
+                <tr>
+                    <td>Frecuencia</td>
+                    <td>Cada cuatro años</td>
+                </tr>
+
+                <tr>
+                    <td>Símbolo</td>
+                    <td>Cinco anillos olímpicos</td>
+                </tr>
+
+                <tr>
+                    <td>Valores</td>
+                    <td>Excelencia, amistad y respeto</td>
+                </tr>
+            </table>
+
+            <button onclick="cambiarColor()">
+                Cambiar color de fondo
+            </button>
+
+            <button onclick="mostrarFecha()">
+                Ver fecha actual
+            </button>
+
+            <p id="fecha"></p>
+        </section>
+
+    </main>
+<section id="carrusel" class="informacion">
+        <h2>Conoce a los legendarios atletas olímpicos</h2>
+    <div class="carrusel">
+
+     <div class="ventana">
+     <div class="carrusel-track" id="track">
+
+      <div class="tarjeta">
+        <h4>Michael Phelps <small> (Record en medallas de oro) </small></h4>
+        <img src="descarga.webp" alt="Michael Phelps">
+      </div>
+
+      <div class="tarjeta">
+        <h4>Larisa Latýnina <small> (Gimnasta destacada) </small></h4>
+        <img src="gimnasta.jpg" alt="Larisa Latýnina" width="250" height="200">
+      </div>
+
+      <div class="tarjeta">
+        <h4>Katie Ledecky<small> (Nadadora olímpica) </small></h4>
+        <img src="nadadora.jpg" alt="Katie Ledecky" width="250" height="200">
+      </div>
+
+      <div class="tarjeta">
+        <h4>Paavo Nurmi <small> (Corredor legendario) </small></h4>
+        <img src="corredor.avif" alt="Paavo Nurmi" width="250" height="200">
+      </div>
+
+      <div class="tarjeta">
+        <h4>Sawao Kato <small> (Gimnasta japonés) </small></h4>
+        <img src="deddd.webp" alt="Sawao Kato" width="250" height="200">
+      </div>
+     </div>
+    <footer>
+        <p>Juegos Olímpicos/ hecho por Greta Edith Soto Puente</p>
+        <p>El deporte une al mundo</p>
+    </footer>
+<script src="trabjo.js">
+
+</script>
+</body>
+</html>
